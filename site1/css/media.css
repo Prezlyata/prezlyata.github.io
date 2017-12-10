@@ -11,6 +11,9 @@
 }
 
 @media only screen and (max-width: 920px) {
+  .banner {
+    padding-bottom: 25px;
+  }
   .banner_img {
     display: none;
   }
@@ -22,6 +25,9 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+  }
+  .banner_content_connect button {
+    margin-bottom: 10px;
   }
 }
 
@@ -44,6 +50,26 @@
 @media only screen and (max-width: 889px) {
   .projects_photo {
     display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .blog {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .blog_left {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .blog_right {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
     justify-content: center;
   }
 }
