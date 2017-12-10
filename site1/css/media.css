@@ -1,0 +1,49 @@
+@media only screen and (min-width: 620px) {
+  .hamb {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .nav ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .banner_img {
+    display: none;
+  }
+  .banner_content {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .banner_content_connect {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  .sponsors_content {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  .services {
+    flex-flow: column;
+  }
+  .services_use {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 889px) {
+  .projects_photo {
+    display: flex;
+    justify-content: center;
+  }
+}

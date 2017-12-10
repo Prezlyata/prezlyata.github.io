@@ -1,0 +1,255 @@
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_text1, .nav ul li a {
+  color: #fff;
+  font-family: 'Myriad Pro', regular;
+  font-size: 15px;
+}
+
+.main_text2, .banner_content_title {
+  color: #fff;
+  font-family: 'Myriad Pro', regular;
+  font-weight: bold;
+  font-size: 47px;
+}
+
+.main_text3, .banner_content_title1 {
+  color: #fff;
+  font-family: 'Myriad Pro', regular;
+  font-size: 16px;
+  color: #d4d4d5;
+}
+
+.main_text4, .banner_content_title2 {
+  color: #fff;
+  font-family: 'Myriad Pro', regular;
+  font-size: 16px;
+  color: #a0a0a0;
+}
+
+.text_title, .services_use h1, .projects_title h1 {
+  color: #8395a2;
+  font-family: 'Myriad Pro', regular;
+  font-size: 20px;
+}
+
+.text_content, .services_use p {
+  color: #a4a4a4;
+  font-family: 'Myriad Pro', regular;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 978px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #4b5a65;
+}
+
+.nav {
+  padding: 37px 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  font-family: 'Pacifico', regular;
+  color: #fff;
+  font-size: 31px;
+}
+
+.nav ul {
+  display: flex;
+  flex-flow: row;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.nav ul li a {
+  padding: 8px 20px 5px;
+}
+
+.nav ul li a:hover {
+  background-color: #424d56;
+  border-radius: 20px;
+  border-bottom: 1px solid #919699;
+  border-top: 1px solid #444444;
+}
+
+.banner {
+  padding-top: 32px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.banner_img {
+  height: 445px;
+}
+
+.banner_content {
+  margin-left: 115px;
+}
+
+.banner_content_title1 {
+  padding-top: 15px;
+  line-height: 1.5;
+}
+
+.banner_content_title2 {
+  padding-top: 15px;
+  line-height: 1.5;
+}
+
+.banner_content_connect {
+  margin-top: 56px;
+}
+
+.banner_content_connect span {
+  padding-left: 20px;
+  color: #fff;
+  font-family: 'Myriad Pro', regular;
+}
+
+.banner_content_connect span img {
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.bttn-gradient {
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+  font-family: 'Myriad Pro', regular;
+  padding: 15px 46px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.bttn-gradient:hover {
+  opacity: 0.75;
+}
+
+.bttn-gradient {
+  border-radius: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #429dd5), color-stop(1, #3f51b5));
+  background-image: -webkit-linear-gradient(top, #00bbd4 0%, #3f51b5 100%);
+  background-image: linear-gradient(to bottom, #00bbd4 0%, #3f51b5 100%);
+  background-image: -webkit-linear-gradient(93deg, #3f51b5 0%, #00bbd4 100%);
+  color: #fff;
+}
+
+.bttn-gradient2 {
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  font-family: 'Myriad Pro', regular;
+  padding: 12px 30px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.bttn-gradient2:hover {
+  opacity: 0.75;
+}
+
+.bttn-gradient2 {
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #429dd5), color-stop(1, #3f51b5));
+  background-image: -webkit-linear-gradient(top, #00bbd4 0%, #3f51b5 100%);
+  background-image: linear-gradient(to bottom, #00bbd4 0%, #3f51b5 100%);
+  background-image: -webkit-linear-gradient(93deg, #3f51b5 0%, #00bbd4 100%);
+  color: #fff;
+}
+
+.sponsors {
+  border-bottom: 1px solid #c3c3c3;
+  background-color: #ececec;
+  padding: 19px 0 16px;
+  text-align: center;
+}
+
+.sponsors_content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.services_use p {
+  line-height: 1.5;
+}
+
+main {
+  background-color: #f3f3f3;
+  padding-top: 96px;
+}
+
+.services {
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.services_use {
+  width: 31%;
+}
+
+.projects {
+  padding-top: 94px;
+}
+
+.projects_title {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.projects_title h1 {
+  margin: 0;
+}
+
+.projects_title img {
+  width: 22px;
+  height: 22px;
+  padding-right: 10px;
+}
+
+.projects_photo {
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
