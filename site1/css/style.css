@@ -157,7 +157,7 @@ header {
   opacity: 0.75;
 }
 
-.bttn-gradient:focus {
+.bttn-gradient:active {
   outline: none;
 }
 
@@ -188,7 +188,7 @@ header {
   opacity: 0.75;
 }
 
-.bttn-gradient2:focus {
+.bttn-gradient2:active {
   outline: none;
 }
 
