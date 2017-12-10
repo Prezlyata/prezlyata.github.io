@@ -157,6 +157,10 @@ header {
   opacity: 0.75;
 }
 
+.bttn-gradient:focus {
+  outline: none;
+}
+
 .bttn-gradient {
   border-radius: 100px;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #429dd5), color-stop(1, #3f51b5));
@@ -182,6 +186,10 @@ header {
 
 .bttn-gradient2:hover {
   opacity: 0.75;
+}
+
+.bttn-gradient2:focus {
+  outline: none;
 }
 
 .bttn-gradient2 {
